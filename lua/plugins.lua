@@ -36,7 +36,7 @@ packer.startup(function(use)
     -- Autoclose and autorename html tags
     use 'windwp/nvim-ts-autotag'
 
-    -- Indent lines
+    -- Indent Lines
     use 'lukas-reineke/indent-blankline.nvim'
 
     -- Search
@@ -53,5 +53,5 @@ packer.startup(function(use)
     use {
         'nvim-lualine/lualine.nvim',
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-    }
+    } 
 end)
