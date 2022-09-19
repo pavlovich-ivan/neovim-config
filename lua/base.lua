@@ -31,6 +31,16 @@ vim.opt.smarttab = true
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 
+vim.api.nvim_exec([[ autocmd FileType javascript setlocal ts=2 sw=2 ]], false)
+vim.api.nvim_exec([[ autocmd FileType html setlocal ts=2 sw=2 ]], false)
+vim.api.nvim_exec([[ autocmd FileType css setlocal ts=2 sw=2 ]], false)
+vim.api.nvim_exec([[ autocmd FileType javascriptreact setlocal ts=2 sw=2 ]], false)
+vim.api.nvim_exec([[ autocmd FileType typescript setlocal ts=2 sw=2 ]], false)
+vim.api.nvim_exec([[ autocmd FileType typescriptreact setlocal ts=2 sw=2 ]], false)
+
+
+
+
 -- File explorer
 vim.g.netrw_banner = 0
 vim.g.netrw_liststyle = 3
