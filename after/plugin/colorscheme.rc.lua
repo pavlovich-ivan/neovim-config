@@ -1,21 +1,21 @@
 ------- OneDark Colorscheme -------
---require('onedark').setup({
---    style = 'warmer',
---    term_colors = true,
---    transparent = false,
---    code_style = {
---        functions = 'italic',    
---    }
---})
+require('onedark').setup({
+    style = 'warmer',
+    term_colors = true,
+    transparent = false,
+    code_style = {
+        functions = 'italic',
+    }
+})
 
---require('onedark').load()
+require('onedark').load()
 
 ------- Tokyo Night Colorscheme -------
-vim.g.tokyonight_style = 'night'
-vim.g.tokyonight_italic_functions = true
-vim.g.tokyonight_transparent = false
+--vim.g.tokyonight_style = 'night'
+--vim.g.tokyonight_italic_functions = true
+--vim.g.tokyonight_transparent = false
 
-vim.cmd('colorscheme tokyonight')
+--vim.cmd('colorscheme tokyonight')
 
 ------- GruvBox Colorscheme -------
 --require("gruvbox").setup({
