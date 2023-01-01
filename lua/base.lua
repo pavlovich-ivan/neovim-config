@@ -37,9 +37,7 @@ vim.api.nvim_exec([[ autocmd FileType css setlocal ts=2 sw=2 ]], false)
 vim.api.nvim_exec([[ autocmd FileType javascriptreact setlocal ts=2 sw=2 ]], false)
 vim.api.nvim_exec([[ autocmd FileType typescript setlocal ts=2 sw=2 ]], false)
 vim.api.nvim_exec([[ autocmd FileType typescriptreact setlocal ts=2 sw=2 ]], false)
-
-
-
+vim.api.nvim_exec([[ autocmd FileType vue setlocal ts=2 sw=2 ]], flase)
 
 -- File explorer
 vim.g.netrw_banner = 0
